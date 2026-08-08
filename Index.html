@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mohd Mursleen | Software & AI/ML Engineer</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: #f5f7ff;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(11, 16, 32, 0.95);
+      border-bottom: 1px solid #26304a;
+      padding: 15px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: #6ea8ff;
+    }
+
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #6ea8ff;
+    }
+
+    section {
+      padding: 80px 8%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    #home {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .tag {
+      color: #6ea8ff;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: clamp(40px, 8vw, 72px);
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .hero-text {
+      max-width: 700px;
+      color: #b9c1d9;
+      font-size: 18px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #6ea8ff;
+      color: #08101f;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      color: #fff;
+      border: 1px solid #52617f;
+    }
+
+    h2.section-title {
+      font-size: 35px;
+      margin-bottom: 25px;
+    }
+
+    .about,
+    .skills,
+    .projects {
+      display: grid;
+      gap: 20px;
+    }
+
+    .card {
+      background: #121a2d;
+      border: 1px solid #273450;
+      border-radius: 14px;
+      padding: 25px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #6ea8ff;
+    }
+
+    .card p {
+      color: #b9c1d9;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      padding: 10px 15px;
+      background: #18223a;
+      border: 1px solid #31405e;
+      border-radius: 20px;
+      color: #dce4fa;
+    }
+
+    .project-card {
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      border-color: #6ea8ff;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #6ea8ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-links a {
+      color: #6ea8ff;
+      text-decoration: none;
+      display: block;
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #26304a;
+      color: #8994ad;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        padding: 14px 5%;
+      }
+
+      nav div {
+        display: none;
+      }
+
+      section {
+        padding: 65px 6%;
+      }
+
+      #home {
+        min-height: 80vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h2>Mursleen</h2>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+
+    <p class="tag">ASPIRING SOFTWARE & AI/ML ENGINEER</p>
+
+    <h1>Hi, I'm<br>Mohd Mursleen.</h1>
+
+    <p class="hero-text">
+      B.Tech CSE student passionate about software development,
+      artificial intelligence and machine learning. I'm learning,
+      building projects and growing my engineering skills step by step.
+    </p>
+
+    <div class="buttons">
+      <a class="btn" href="#projects">View Projects</a>
+
+      <a class="btn secondary"
+         href="https://github.com/Mrsleen7892"
+         target="_blank">
+        GitHub
+      </a>
+    </div>
+
+  </section>
+
+
+  <section id="about">
+
+    <h2 class="section-title">About Me</h2>
+
+    <div class="card">
+
+      <p>
+        I'm Mohd Mursleen, a B.Tech Computer Science & Engineering student
+        interested in Software Engineering, Artificial Intelligence and
+        Machine Learning.
+      </p>
+
+      <br>
+
+      <p>
+        Currently, I'm strengthening my programming, problem-solving and
+        development skills by building practical projects and learning
+        new technologies.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section id="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skill-list">
+
+      <span class="skill">Python</span>
+      <span class="skill">C++</span>
+      <span class="skill">Java</span>
+      <span class="skill">DSA</span>
+      <span class="skill">OOP</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">Git</span>
+      <span class="skill">GitHub</span>
+      <span class="skill">AI/ML — Learning</span>
+
+    </div>
+
+  </section>
+
+
+  <section id="projects">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects">
+
+      <div class="card project-card">
+
+        <h3>Portfolio Website</h3>
+
+        <p>
+          Personal portfolio website showcasing my skills,
+          learning journey and projects.
+        </p>
+
+        <a href="https://github.com/Mrsleen7892/Mursleen-portfolio"
+           target="_blank">
+          View on GitHub →
+        </a>
+
+      </div>
+
+
+      <div class="card project-card">
+
+        <h3>More Projects Coming Soon</h3>
+
+        <p>
+          I'm currently learning and building beginner-friendly
+          Software and AI/ML projects. More projects will be added
+          as I continue learning.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="contact">
+
+    <h2 class="section-title">Let's Connect</h2>
+
+    <div class="card contact-links">
+
+      <a href="https://github.com/Mrsleen7892" target="_blank">
+        GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/mohd-mursleen-41190b327/"
+         target="_blank">
+        LinkedIn
+      </a>
+
+      <a href="mailto:akib2004ahmed@gmail.com">
+        Email
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    © 2026 Mohd Mursleen. Built while learning and growing.
+  </footer>
+
+</body>
+  </html>
